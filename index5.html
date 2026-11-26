@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#1564b0"><title>Brand Applications · PLANET.EXE</title>
+<link rel="icon" href="assets/brand/media-icon.png"><link rel="stylesheet" href="desktop.css"><link rel="stylesheet" href="brand.css"><script defer src="brand-data.js"></script><script defer src="brand.js"></script></head>
+<body class="brand-app app-media" data-page="media">
+<header class="system-bar"><a class="os-brand" href="index.html"><img src="assets/planet.png" alt="">Planet OS</a><i class="divider"></i><span class="top-path">Brandbook</span><div class="top-end"><span class="led"></span> System online <i class="divider"></i><span>BIOSPHERE EDITION</span></div></header>
+<div class="app-space"><main class="book-window">
+  <div class="book-chrome"><img src="assets/brand/media-icon.png" alt=""><strong>Media Library — PLANET.EXE</strong><a class="exit-app" aria-label="Close application and return to desktop" title="Return to desktop" href="index.html">×</a></div>
+  <nav class="book-nav" aria-label="Brandbook sections"><a href="index.html"><img src="assets/devices.png" alt="">Desktop</a><a href="index2.html"><img src="assets/brand/logo-icon.png" alt="">Logo &amp; Graphics</a>
+      <a href="index3.html"><img src="assets/brand/type-icon.png" alt="">Typography</a>
+      <a href="index4.html"><img src="assets/brand/color-icon.png" alt="">Colors &amp; Imagery</a>
+      <a href="index5.html" aria-current="page"><img src="assets/brand/media-icon.png" alt="">Brand Applications</a></nav>
+  <div class="book-body"><header class="app-intro"><div class="intro-copy"><div class="app-path">planet://brandbook/media</div><h1>Brand Applications</h1></div><img src="assets/brand/media-icon.png" alt=""></header>
+<div class="library-layout"><aside class="media-files bevel"><h2>Collection</h2><label for="media-filter">Show files</label><select id="media-filter"><option value="All">All media</option><option value="Physical">Physical media</option><option value="Digital">Digital media</option></select><div id="file-list"></div></aside>
+<section class="media-view"><div class="panel-label"><span id="media-filename"></span><span id="file-count"></span></div><button class="media-projector zoom-target" id="media-enlarge" aria-label="Enlarge selected application"><img id="media-image" alt=""><span class="lens-label">Enlarge +</span></button>
+<div class="media-caption"><div><span class="overline" id="media-kind"></span><h2 id="media-name"></h2></div><div class="pager"><button class="ui-btn" id="media-prev" aria-label="Previous application">Prev</button><button class="ui-btn" id="media-next" aria-label="Next application">Next</button></div></div>
+<p id="media-desc"></p><p class="material" id="media-material"></p></section></div></div>
+  <div class="book-status"><span><i class="led"></i> <span id="status-message" role="status">Ready</span></span><span>Demo identity library</span></div>
+</main></div>
+<nav id="book-menu" aria-label="Planet menu" hidden><div class="menu-brand"><img src="assets/planet.png" alt="">Planet OS</div><a href="index.html"><img src="assets/devices.png" alt="">Desktop</a><a href="index2.html"><img src="assets/brand/logo-icon.png" alt="">Logo &amp; Graphics</a>
+      <a href="index3.html"><img src="assets/brand/type-icon.png" alt="">Typography</a>
+      <a href="index4.html"><img src="assets/brand/color-icon.png" alt="">Colors &amp; Imagery</a>
+      <a href="index5.html" aria-current="page"><img src="assets/brand/media-icon.png" alt="">Brand Applications</a></nav>
+<footer class="taskbar"><button id="start" aria-expanded="false" aria-controls="book-menu"><img src="assets/planet.png" alt="">Planet</button><span class="grip"></span><div class="book-task"><img src="assets/brand/media-icon.png" alt="">Media Library</div>
+<div class="tray"><button id="book-mute" aria-label="Mute sound">Sound on</button><time id="book-clock"></time></div></footer>
+<dialog id="image-viewer" aria-labelledby="viewer-title"><div class="view-head"><strong id="viewer-title"></strong><button class="ui-btn" id="viewer-close">Close</button></div><img id="viewer-image" alt=""><p id="viewer-caption"></p></dialog>
+</body></html>
